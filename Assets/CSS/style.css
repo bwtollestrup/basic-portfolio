@@ -42,17 +42,6 @@ h2, h3 {
     font-size: 22px;
 }
 
-h1 {
-    font-size: 30px;
-    line-height: 49 px;
-    border-bottom: 3px solid #cccccc;
-    padding-bottom: 20px;
-}
-
-h2, h3 {
-    font-size: 22px;
-}
-
 #header {
     background: #ffffff;
     margin: 0 0 30px;
@@ -94,14 +83,13 @@ nav a:first-child {
     border-left: 0 none;
 }
 
-
 #main-container {
     color: #777777;
     background: #ffffff;
     border: 1px solid #dddddd;
     padding: 70px;
     padding-top: 40px;
-    margin: 40px auto;
+    margin: 20px auto;
     width: 100%;
     max-width: 960px;
     line-height: 125%;
@@ -115,27 +103,25 @@ nav a:first-child {
     margin-right: 25px;
 
 }
+
 .bottombar {
     background: #ffffff;
     padding: 20px;
     width: 100%;
     max-width: 960px;
     border: 1px solid #dddddd;
-    margin-bottom: 20px;
+    margin-bottom: 75px;
     text-align: center;
-}
-
-h3, .bottombar, h2 {
-    border-bottom: 4px solid #cccccc;
+ }
+ 
+ h3, h2 {
+    border-bottom: 1px solid #cccccc;
     padding-bottom: 5px;
     margin-bottom: 15px;
     line-height: 22px;
-
-}
+ }
 
 .social {
-    width: 62px;
-    height: 62px;
     margin-top: 8px;
     margin-right: 5px;
 }
@@ -143,6 +129,7 @@ h3, .bottombar, h2 {
 .social:last-child {
     margin-right: 0;
 }
+
 
 .footer {
     background-color: #777777;
@@ -166,7 +153,7 @@ h3, .bottombar, h2 {
     position: relative;
     margin: 20px 0 25px;
     display: inline-block;
-    align-items: center;
+    content: center;
     margin-bottom: 20px;
 
 }
@@ -198,7 +185,7 @@ h3, .bottombar, h2 {
 
 #contact-form ul {
     margin-bottom: 20px;
-}s
+}
 
 #contact-form li {
     margin-bottom:  10px;
