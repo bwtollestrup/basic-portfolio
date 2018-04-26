@@ -220,7 +220,87 @@ input[type=submit]{
     cursor: pointer;
 }
 
+@media screen and (max-width:980px) {
+    #header {
+        width: 100%;
+    }
+  
+    .container {
+        width: 75%;
+        margin: 40px
+    }
+    
+    .bottombar {
+        width: 100%;
+    }
+    .footer {
+        width: 100%;
+        padding: 15px;
+    }
+}
 
+@media screen and (max-width:768px) {
+    #header {
+        width: 100%;
+        float: right;
+    }
+
+    #logo {
+        width: 50%;
+        position: static;
+    }
+
+    nav {
+        width: 50%;
+        position: static;
+    }
+    .container {
+        width: 90%;
+        margin: 40px
+    }
+    
+    .bottombar {
+        width: 100%;
+        margin-bottom: 75px;
+    }
+
+    .work {
+        width: 45%
+        }
+
+    .footer {
+        width: 100%;
+        padding: 15px;
+    }
+    
+}
+
+@media screen and (max-width:640px) {
+
+    #logo {
+        width: 100%;
+        position: static;
+    }
+
+    nav {
+        width: 100%;
+        position: static;
+        text-align: center;
+    }
+    
+    #main-containter {
+        width: 90%;
+    }
+
+    .bottombar {
+        width: 100%;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+}
 
 
 
